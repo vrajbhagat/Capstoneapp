@@ -1,4 +1,4 @@
 module.exports = {
-    database: 'mongodb://localhost:27017/capstone',
+    database: 'mongodb+srv://juicepet:jpcap@juicepet-fcdxs.mongodb.net/test?retryWrites=true&w=majority',
     secret: 'Capstoneapp'
 }
