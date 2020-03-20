@@ -1,0 +1,30 @@
+<body>
+<div class="wrapper">
+    <div class="title">
+      Register Here
+    </div>
+<!-- <flash-messages></flash-messages> -->
+<form (submit)="onRegisterSubmit()">
+    <div class="form">
+      <div class="input_field">
+        <input type="text" [(ngModel)]="name" name="name" placeholder="Name" class="input">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="input_field">
+        <input type="text" [(ngModel)]="username" name="username" placeholder="Username" class="input">
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="input_field">
+        <input type="text" [(ngModel)]="email" name="email" placeholder="Email" class="input">
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="input_field">
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Password" class="input">
+        <i class="fas fa-lock"></i>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <!-- <input type="submit" class="btn btn-primary"  value="Register"> -->
+    </div>
+</form>
+</div>
+</body>

@@ -1,0 +1,35 @@
+<img class="wave" src="assets/images/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="assets/images/bg.svg">
+		</div>
+		<div class="login-content">
+			<form (submit)="onLoginSubmit()">
+				<img src="assets/images/avatar.svg">
+                <h2 class="title">Welcome</h2>
+                <!-- <flash-messages></flash-messages> -->
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<input type="text" [(ngModel)]="username" name="username" placeholder="Username" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<input type="password" [(ngModel)]="password" name="password" placeholder="Password" class="input">
+            	   </div>
+            	</div>
+				<a href="#">Forgot Password?</a>
+				<!-- <button type="submit" class="btn">Login</button> -->
+				<input type="submit" class="btn" value="Login">
+				<a [routerLink]="['/register']">Don't have an account? Sign up here!</a>
+            </form>
+        </div>
+</div> 
+
+

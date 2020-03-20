@@ -1,0 +1,14 @@
+.flash{
+    position: absolute;
+    top: 12px;
+    left: 50%; 
+    width: 350px;
+    z-index: 1000000;
+    pointer-events: none;
+    background: #058405;
+    text-align: center;
+    padding: 5px 3px;
+    border-radius: 5px;
+    color: #fff;
+    font-size:14px;
+}
