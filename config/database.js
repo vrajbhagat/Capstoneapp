@@ -1,4 +1,4 @@
 module.exports = {
-    database: 'mongodb://juicepet:jpcap@1234@ds037817.mlab.com:37817/heroku_gjbmmmx4',
+    database: 'mongodb+srv://juicepet:jpcap@juicepet-fcdxs.mongodb.net/test?retryWrites=true&w=majority',
     secret: 'Capstoneapp'
 }
