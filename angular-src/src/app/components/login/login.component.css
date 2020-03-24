@@ -22,6 +22,10 @@
     padding: 0 2rem;
 }
 
+.juicepet{
+	border-radius: 400px;
+}
+
 .img{
 	display: flex;
 	justify-content: flex-end;

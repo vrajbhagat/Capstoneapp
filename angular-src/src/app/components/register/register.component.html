@@ -7,19 +7,19 @@
 <form (submit)="onRegisterSubmit()">
     <div class="form">
       <div class="input_field">
-        <input type="text" [(ngModel)]="name" name="name" placeholder="Name" class="input">
+        <input type="text" [(ngModel)]="name" name="name" placeholder="Name" class="input" required>
         <i class="fas fa-user"></i>
       </div>
       <div class="input_field">
-        <input type="text" [(ngModel)]="username" name="username" placeholder="Username" class="input">
+        <input type="text" [(ngModel)]="username" name="username" placeholder="Username" class="input" required>
         <i class="far fa-envelope"></i>
       </div>
       <div class="input_field">
-        <input type="text" [(ngModel)]="email" name="email" placeholder="Email" class="input">
+        <input type="text" [(ngModel)]="email" name="email" placeholder="Email" class="input" required>
         <i class="far fa-envelope"></i>
       </div>
       <div class="input_field">
-        <input type="password" [(ngModel)]="password" name="password" placeholder="Password" class="input">
+        <input type="password" [(ngModel)]="password" name="password" placeholder="Password" class="input" required>
         <i class="fas fa-lock"></i>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
